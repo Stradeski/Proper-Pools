@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProperPools | Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f2fdfd;
+      color: #02333f;
+      line-height: 1.8;
+      text-align: center;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #ffffff;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      flex-wrap: wrap;
+    }
+    header img {
+      height: 80px;
+    }
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #066a7c;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .dropdown {
+      position: relative;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      min-width: 200px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      display: block;
+      padding: 0.5rem 1rem;
+      color: #066a7c;
+      text-align: left;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .container {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .feature-box {
+      background: #e7fafa;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .feature-box h3 {
+      margin-bottom: 0.5rem;
+      color: #024b5c;
+    }
+    .intro p {
+      max-width: 800px;
+      margin: 0.5rem auto;
+      font-size: 1.1rem;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 1.5rem;
+      background: #066a7c;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    footer {
+      background: #004d40;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="ProperPools-Logo.jpeg" alt="ProperPools Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="POOL.html">Maintenance ▾</a>
+        <div class="dropdown-content">
+          <a href="POOL.html">Pool Maintenance</a>
+          <a href="SPA.html">Spa Maintenance</a>
+          <a href="WATERFEATURE.html">Water Feature</a>
+          <a href="LEAK.html">Leak Detection</a>
+          <a href="COMMERCIAL.html">Commercial</a>
+        </div>
+      </div>
+      <a href="Quote.html">Free Quote</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Welcome to ProperPools</h1>
+    <div class="intro">
+      <p>
+        At ProperPools, we believe your time should be spent enjoying your pool — not worrying about it.
+        We are a premium pool and spa maintenance company dedicated to delivering expert care, tailored
+        solutions, and consistent results. Our reputation is built on trust, clarity, and excellence in service.
+      </p>
+      <p>
+        From residential retreats to commercial facilities, we approach each client with integrity,
+        attention to detail, and a proactive mindset. With ProperPools, you can expect not only pristine
+        water but also a stress-free service experience from professionals who care about your satisfaction.
+      </p>
+    </div>
+
+    <a href="book.html" class="button">Book an Appointment</a>
+
+    <h2 style="margin-top: 2rem;">Why Choose ProperPools?</h2>
+    <ul style="text-align: left; display: inline-block; margin: 1rem auto; font-size: 1.05rem;">
+      <li><strong>Locally Owned & Operated:</strong> Deep community knowledge and dedication.</li>
+      <li><strong>Professional Team:</strong> Trained and experienced staff for reliable care.</li>
+      <li><strong>Transparent Pricing:</strong> No surprises — you know what you’re paying for.</li>
+      <li><strong>Premium Products:</strong> Safe, industry-trusted chemicals and parts.</li>
+      <li><strong>Reliable Scheduling:</strong> We show up on time, every time.</li>
+    </ul>
+
+    <div class="feature-grid">
+      <div class="feature-box">
+        <h3>Expert Water Balancing</h3>
+        <p>We ensure perfect pH, chlorine, and alkalinity for a safe swim every time.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Spa & Hot Tub Care</h3>
+        <p>Detailed weekly spa service including jets, filters, and sanitization.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Seasonal Service</h3>
+        <p>Opening, closing, and year-round coverage available.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Leak Detection</h3>
+        <p>Advanced non-invasive diagnostics to catch leaks early.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Commercial Services</h3>
+        <p>We service gyms, hotels, and multi-unit residential pools professionally.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Water Feature Maintenance</h3>
+        <p>Keep your fountains, waterfalls, and ponds running beautifully.</p>
+      </div>
+    </div>
+
+    <div class="emergency-services" style="margin-top: 3rem;">
+      <h2 style="color: #066a7c;">Emergency Services</h2>
+      <p>Emergency services are available outside of regular business hours (Mon–Fri, 7:00 AM – 6:00 PM):</p>
+      <ul style="text-align: left; display: inline-block; font-size: 1.05rem;">
+        <li><strong>Weekday Emergency Call-Out:</strong> $125.00 + tax CAD</li>
+        <li><strong>Weekend or Holiday Emergency Call-Out:</strong> $175.00 + tax CAD</li>
+      </ul>
+      <p>Rates include diagnostics and stabilization. Repairs/parts quoted separately.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 ProperPools. All rights reserved.
+  </footer>
+</body>
+</html>

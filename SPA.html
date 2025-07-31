@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProperPools | Spa Maintenance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f2fdfd;
+      color: #02333f;
+      line-height: 1.8;
+      text-align: center;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #ffffff;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      flex-wrap: wrap;
+    }
+    header img {
+      height: 80px;
+    }
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #066a7c;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .dropdown {
+      position: relative;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      min-width: 200px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      display: block;
+      padding: 0.5rem 1rem;
+      color: #066a7c;
+      text-align: left;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .container {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #024b5c;
+    }
+    ul {
+      text-align: left;
+      display: inline-block;
+      margin: 1rem auto;
+      font-size: 1.05rem;
+    }
+    footer {
+      background: #004d40;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="ProperPools-Logo.jpeg" alt="ProperPools Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="POOL.html">Maintenance ▾</a>
+        <div class="dropdown-content">
+          <a href="POOL.html">Pool Maintenance</a>
+          <a href="SPA.html">Spa Maintenance</a>
+          <a href="WATERFEATURE.html">Water Feature</a>
+          <a href="LEAK.html">Leak Detection</a>
+          <a href="COMMERCIAL.html">Commercial</a>
+        </div>
+      </div>
+      <a href="Quote.html">Free Quote</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Spa & Hot Tub Maintenance</h1>
+    <p>
+      Regular spa maintenance keeps your water clean, safe, and your system running efficiently.
+      ProperPools provides detailed weekly service to ensure you enjoy crystal-clear relaxation without any hassle.
+    </p>
+
+    <h2>Pricing</h2>
+    <p><strong>Summer Season (May 1 – September 30):</strong></p>
+    <ul>
+      <li>Hot Tub Maintenance: $40.00 CAD + tax per visit</li>
+      <li>Combined Pool + Hot Tub Service: $95.00 CAD + tax per visit</li>
+    </ul>
+
+    <p><strong>Winter Season (October 1 – April 30):</strong></p>
+    <ul>
+      <li>Hot Tub Maintenance: $50.00 CAD + tax per visit</li>
+    </ul>
+    <p>*Prices may vary depending on complexity, access, and safety.</p>
+
+    <h2>Service Includes:</h2>
+    <ul>
+      <li>Jet and filter cleaning</li>
+      <li>Draining, refilling, and water testing</li>
+      <li>Heater and control inspection</li>
+      <li>Water balancing and sanitizer checks</li>
+      <li>Inspection of covers and seals</li>
+    </ul>
+
+    <div style="margin-top: 2rem;">
+      <h2>Emergency Services</h2>
+      <p>Available outside of regular business hours (Mon–Fri, 7:00 AM – 6:00 PM):</p>
+      <ul>
+        <li>Weekday Emergency Call-Out: $125.00 + tax CAD</li>
+        <li>Weekend or Holiday Emergency Call-Out: $175.00 + tax CAD</li>
+      </ul>
+      <p>Includes diagnostics and stabilization. Repairs/parts quoted separately.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 ProperPools. All rights reserved.
+  </footer>
+</body>
+</html>

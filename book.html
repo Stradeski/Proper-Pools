@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProperPools | Book an Appointment</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f2fdfd;
+      color: #02333f;
+      line-height: 1.8;
+      text-align: center;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #ffffff;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      flex-wrap: wrap;
+    }
+    header img {
+      height: 80px;
+    }
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #066a7c;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .dropdown {
+      position: relative;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      min-width: 200px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      display: block;
+      padding: 0.5rem 1rem;
+      color: #066a7c;
+      text-align: left;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .container {
+      max-width: 600px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: inherit;
+    }
+    button {
+      background: #066a7c;
+      color: white;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #044a57;
+    }
+    footer {
+      background: #004d40;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="ProperPools-Logo.jpeg" alt="ProperPools Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="POOL.html">Maintenance ▾</a>
+        <div class="dropdown-content">
+          <a href="POOL.html">Pool Maintenance</a>
+          <a href="SPA.html">Spa Maintenance</a>
+          <a href="WATERFEATURE.html">Water Feature</a>
+          <a href="LEAK.html">Leak Detection</a>
+          <a href="COMMERCIAL.html">Commercial</a>
+        </div>
+      </div>
+      <a href="Quote.html">Free Quote</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Book a Service Visit</h1>
+    <p>Fill out the form below to request a service appointment. We'll respond promptly to confirm availability.</p>
+    <form action="https://formsubmit.co/info@Proper-pools.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="text" name="address" placeholder="Service Address" required>
+      <select name="service" required>
+        <option value="" disabled selected>Select Service Type</option>
+        <option value="Pool Maintenance">Pool Maintenance</option>
+        <option value="Spa Maintenance">Spa Maintenance</option>
+        <option value="Water Feature">Water Feature</option>
+        <option value="Leak Detection">Leak Detection</option>
+        <option value="Commercial">Commercial Services</option>
+      </select>
+      <textarea name="notes" rows="4" placeholder="Additional details or requests"></textarea>
+      <button type="submit">Submit Request</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 ProperPools. All rights reserved.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProperPools | Commercial Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f2fdfd;
+      color: #02333f;
+      line-height: 1.8;
+      text-align: center;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #ffffff;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      flex-wrap: wrap;
+    }
+    header img {
+      height: 80px;
+    }
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #066a7c;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .dropdown {
+      position: relative;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      min-width: 200px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      display: block;
+      padding: 0.5rem 1rem;
+      color: #066a7c;
+      text-align: left;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .container {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #024b5c;
+    }
+    ul {
+      text-align: left;
+      display: inline-block;
+      margin: 1rem auto;
+      font-size: 1.05rem;
+    }
+    footer {
+      background: #004d40;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="ProperPools-Logo.jpeg" alt="ProperPools Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="POOL.html">Maintenance ▾</a>
+        <div class="dropdown-content">
+          <a href="POOL.html">Pool Maintenance</a>
+          <a href="SPA.html">Spa Maintenance</a>
+          <a href="WATERFEATURE.html">Water Feature</a>
+          <a href="LEAK.html">Leak Detection</a>
+          <a href="COMMERCIAL.html">Commercial</a>
+        </div>
+      </div>
+      <a href="Quote.html">Free Quote</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Commercial Pool & Spa Services</h1>
+    <p>
+      ProperPools delivers consistent, expert care for commercial clients, including hotels, strata complexes, recreation centers, and wellness facilities.
+    </p>
+
+    <h2>What We Offer</h2>
+    <ul>
+      <li>Customized maintenance schedules based on facility hours and usage</li>
+      <li>Health and safety compliance, record-keeping, and inspections</li>
+      <li>Complete chemical balancing and filtration monitoring</li>
+      <li>Equipment diagnostics and preventative maintenance</li>
+      <li>Priority response times and weekend availability</li>
+    </ul>
+
+    <p>
+      We understand that commercial pool systems require fast, dependable, and knowledgeable service. With ProperPools, your business is supported by a reliable team that works efficiently to avoid disruption and maximize uptime.
+    </p>
+
+    <div style="margin-top: 2rem;">
+      <h2>Emergency Services</h2>
+      <p>Available outside of regular business hours (Mon–Fri, 7:00 AM – 6:00 PM):</p>
+      <ul>
+        <li>Weekday Emergency Call-Out: $125.00 + tax CAD</li>
+        <li>Weekend or Holiday Emergency Call-Out: $175.00 + tax CAD</li>
+      </ul>
+      <p>Includes diagnostics and stabilization. Repairs/parts quoted separately.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 ProperPools. All rights reserved.
+  </footer>
+</body>
+</html>
